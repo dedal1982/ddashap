@@ -94,8 +94,8 @@ section {
   line-height: 220px;
   color: #ff0000;
   position: absolute;
-  top: 60px;
-  left: 415px;
+  top: 53px;
+  left: 466px;
   z-index: 2;
 }
 .header__logo {
@@ -178,11 +178,12 @@ section {
 .info__text {
   display: flex;
   flex-direction: column;
-  gap: 96px;
-  max-width: 380px;
+  gap: 130px;
+  max-width: 566px;
   width: 100%;
 }
 .info__title {
+  max-width: 380px;
   font-weight: 400;
   font-size: 60px;
   line-height: 66px;
@@ -196,7 +197,6 @@ section {
   font-size: 40px;
   line-height: 44px;
   color: #000;
-  text-align: justify;
 }
 .info__image {
   width: 443px;
@@ -281,10 +281,28 @@ section {
 .skills__software {
   display: flex;
   align-items: center;
-  gap: 30px;
+  margin-left: 40px;
 }
 .skills__soft {
   filter: grayscale(100%);
+}
+.skills__soft-1 {
+  margin-right: 29px;
+}
+.skills__soft-2 {
+  margin-right: 9px;
+}
+.skills__soft-3 {
+  margin-right: 7px;
+}
+.skills__soft-4 {
+  margin-right: 28px;
+}
+.skills__soft-5 {
+  margin-right: 22px;
+}
+.skills__soft-6 {
+  margin-right: 22px;
 }
 .skills__soft img {
   width: auto;
