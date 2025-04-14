@@ -536,3 +536,14 @@ button {
   margin-top: 119px;
   transition: all 0.3s ease-out;
 }
+.project-info__bott {
+  display: flex;
+  flex-direction: column;
+  margin-top: 13px;
+}
+.project-info__title {
+  font-family: "FDMedian", sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  color: #00000040;
+}
