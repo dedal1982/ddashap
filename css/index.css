@@ -448,12 +448,17 @@ button {
 .project-top__image {
   max-width: 1295px;
   width: 100%;
-  margin: 354px 0 0 8px;
+  margin: 354px auto 0 8px;
 }
 .project-top__image-2 {
   max-width: 1093px;
   width: 100%;
-  margin: 322px 0 0 1px;
+  margin: 322px auto 0 1px;
+}
+.project-top__image-3 {
+  max-width: 1151px;
+  width: 100%;
+  margin: 350px auto 0 0;
 }
 .project-top__image img {
   width: 100%;
@@ -473,6 +478,9 @@ button {
 .project-top__title-2 {
   margin: 69px 341px 0 auto;
 }
+.project-top__title-3 {
+  margin: 104px 74px 0 auto;
+}
 /*---project-info---*/
 .project-info {
   width: 100%;
@@ -486,6 +494,10 @@ button {
 }
 .project-info__wrapper-2 {
   padding-top: 61px;
+}
+.project-info__wrapper-3 {
+  padding-top: 107px;
+  padding-bottom: 129px;
 }
 .project-info__top {
   width: 100%;
@@ -532,6 +544,13 @@ button {
   margin-top: 59px;
   gap: 218px;
 }
+.project-info__main-3 {
+  padding-left: 70px;
+  padding-right: 100px;
+  box-sizing: border-box;
+  margin-top: 94px;
+  gap: 207px;
+}
 .project-info__key {
   font-family: "Type-Machine", sans-serif;
   font-weight: 400;
@@ -562,6 +581,9 @@ button {
 .project-info__further-2 {
   margin-top: 95px;
 }
+.project-info__further-3 {
+  margin-top: 103px;
+}
 .project-info__bott {
   display: flex;
   flex-direction: column;
@@ -585,6 +607,9 @@ button {
 .project-info__images-2 {
   margin-top: 37px;
 }
+.project-info__images-3 {
+  margin-top: 122px;
+}
 .project-info__imag-1-l {
   max-width: 784px;
   width: 100%;
@@ -592,6 +617,11 @@ button {
 .project-info__imag-2-l {
   max-width: 736px;
   width: 100%;
+}
+.project-info__imag-3-l {
+  max-width: 756px;
+  width: 100%;
+  margin-left: 26px;
 }
 .project-info__imag-1-r {
   max-width: 667px;
@@ -603,6 +633,12 @@ button {
   height: 456px;
   margin-top: auto;
 }
+.project-info__imag-3-r {
+  max-width: 718px;
+  width: 100%;
+  height: 369px;
+  margin-top: 77px;
+}
 .project-info__imag-1-bot {
   max-width: 1007px;
   width: 100%;
@@ -613,4 +649,10 @@ button {
   max-width: 779px;
   width: 100%;
   margin: 84px auto 0;
+}
+.project-info__imag-3-bot {
+  max-width: 926px;
+  width: 100%;
+  height: 413px;
+  margin: 129px 80px 0 auto;
 }
