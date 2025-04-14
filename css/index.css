@@ -523,3 +523,16 @@ button {
   font-size: 24px;
   color: #000;
 }
+.project-info__further {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  font-family: "Type-Machine", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #000;
+  align-self: flex-end;
+  margin-top: 119px;
+  transition: all 0.3s ease-out;
+}
