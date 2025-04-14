@@ -473,7 +473,7 @@ button {
 }
 .project-info__wrapper {
   padding-top: 103px;
-  padding-bottom: 110px;
+  padding-bottom: 112px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -546,4 +546,24 @@ button {
   font-weight: 400;
   font-size: 100px;
   color: #00000040;
+}
+.project-info__images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 101px;
+}
+.project-info__imag-1-l {
+  max-width: 784px;
+  width: 100%;
+}
+.project-info__imag-1-r {
+  max-width: 667px;
+  width: 100%;
+}
+.project-info__imag-1-bot {
+  max-width: 1007px;
+  width: 100%;
+  margin-top: 107px;
+  margin-left: 168px;
 }
