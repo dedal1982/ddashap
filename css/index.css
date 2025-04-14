@@ -472,9 +472,54 @@ button {
   width: 100%;
 }
 .project-info__wrapper {
-  padding-top: 95px;
+  padding-top: 103px;
   padding-bottom: 110px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+}
+.project-info__top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.project-info__item {
+  display: flex;
+  padding-top: 38px;
+  padding-bottom: 47px;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+}
+.project-info__aside {
+  display: flex;
+  flex-direction: column;
+  gap: 267px;
+  border-right: 1px solid #000000;
+  padding-left: 49px;
+  padding-right: 56px;
+  padding-top: 98px;
+  padding-bottom: 71px;
+}
+.project-info__main {
+  display: flex;
+  flex-direction: column;
+  padding-left: 84px;
+  padding-right: 100px;
+  box-sizing: border-box;
+  margin-top: 78px;
+  gap: 135px;
+}
+.project-info__key {
+  font-family: "Type-Machine", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  color: #000;
+  text-align: center;
+}
+.project-info__value {
+  font-family: "Type-Machine", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
 }
