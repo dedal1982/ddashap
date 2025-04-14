@@ -442,15 +442,18 @@ button {
   width: 100%;
 }
 .project-top__wrapper {
-  margin: 354px auto 0;
   display: flex;
   flex-direction: column;
-  gap: 102px;
 }
 .project-top__image {
   max-width: 1295px;
   width: 100%;
-  margin-left: 8px;
+  margin: 354px 0 0 8px;
+}
+.project-top__image-2 {
+  max-width: 1093px;
+  width: 100%;
+  margin: 322px 0 0 1px;
 }
 .project-top__image img {
   width: 100%;
@@ -465,7 +468,10 @@ button {
   color: #000;
   text-transform: uppercase;
   text-align: right;
-  margin-right: 55px;
+  margin: 102px 55px 0 auto;
+}
+.project-top__title-2 {
+  margin: 69px 341px 0 auto;
 }
 /*---project-info---*/
 .project-info {
@@ -477,6 +483,9 @@ button {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+}
+.project-info__wrapper-2 {
+  padding-top: 61px;
 }
 .project-info__top {
   width: 100%;
@@ -500,6 +509,13 @@ button {
   padding-top: 98px;
   padding-bottom: 71px;
 }
+.project-info__aside-2 {
+  gap: 297px;
+  padding-left: 49px;
+  padding-right: 56px;
+  padding-top: 111px;
+  padding-bottom: 84px;
+}
 .project-info__main {
   display: flex;
   flex-direction: column;
@@ -508,6 +524,13 @@ button {
   box-sizing: border-box;
   margin-top: 78px;
   gap: 135px;
+}
+.project-info__main-2 {
+  padding-left: 70px;
+  padding-right: 100px;
+  box-sizing: border-box;
+  margin-top: 59px;
+  gap: 218px;
 }
 .project-info__key {
   font-family: "Type-Machine", sans-serif;
@@ -536,10 +559,16 @@ button {
   margin-top: 119px;
   transition: all 0.3s ease-out;
 }
+.project-info__further-2 {
+  margin-top: 95px;
+}
 .project-info__bott {
   display: flex;
   flex-direction: column;
   margin-top: 13px;
+}
+.project-info__bott-2 {
+  margin-top: 0;
 }
 .project-info__title {
   font-family: "FDMedian", sans-serif;
@@ -553,17 +582,35 @@ button {
   justify-content: space-between;
   margin-top: 101px;
 }
+.project-info__images-2 {
+  margin-top: 37px;
+}
 .project-info__imag-1-l {
   max-width: 784px;
+  width: 100%;
+}
+.project-info__imag-2-l {
+  max-width: 736px;
   width: 100%;
 }
 .project-info__imag-1-r {
   max-width: 667px;
   width: 100%;
 }
+.project-info__imag-2-r {
+  max-width: 794px;
+  width: 100%;
+  height: 456px;
+  margin-top: auto;
+}
 .project-info__imag-1-bot {
   max-width: 1007px;
   width: 100%;
   margin-top: 107px;
   margin-left: 168px;
+}
+.project-info__imag-2-bot {
+  max-width: 779px;
+  width: 100%;
+  margin: 84px auto 0;
 }
