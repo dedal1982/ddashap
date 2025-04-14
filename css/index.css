@@ -45,6 +45,12 @@ button {
   border: none;
   cursor: pointer;
 }
+.hover-effect {
+  transition: all 0.3s ease-out;
+}
+.hover-effect:hover {
+  opacity: 0.5;
+}
 .page {
   width: 100%;
   display: flex;
@@ -127,6 +133,7 @@ button {
   line-height: 39.08px;
   color: #000;
 }
+
 .promo__wrapper {
   display: flex;
   align-items: center;
@@ -405,12 +412,6 @@ button {
   display: flex;
   align-items: center;
 }
-.footer__social a {
-  transition: all 0.3s ease-out;
-}
-.footer__social a:hover {
-  opacity: 0.5;
-}
 .footer__icon {
   display: block;
   width: 24px;
@@ -465,6 +466,11 @@ button {
   width: 100%;
   margin: 309px auto 0 0;
 }
+.project-top__image-5 {
+  max-width: 1001px;
+  width: 100%;
+  margin: 327px auto 0 2px;
+}
 .project-top__image img {
   width: 100%;
   height: 100%;
@@ -489,6 +495,9 @@ button {
 .project-top__title-4 {
   margin: 83px 229px 0 auto;
 }
+.project-top__title-5 {
+  margin: 100px 319px 0 auto;
+}
 /*---project-info---*/
 .project-info {
   width: 100%;
@@ -510,6 +519,10 @@ button {
 .project-info__wrapper-4 {
   padding-top: 87px;
   padding-bottom: 91px;
+}
+.project-info__wrapper-5 {
+  padding-top: 87px;
+  padding-bottom: 96px;
 }
 .project-info__top {
   width: 100%;
@@ -570,6 +583,13 @@ button {
   margin-top: 76px;
   gap: 244px;
 }
+.project-info__main-5 {
+  padding-left: 74px;
+  padding-right: 83px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  gap: 242px;
+}
 .project-info__key {
   font-family: "Type-Machine", sans-serif;
   font-weight: 400;
@@ -595,7 +615,6 @@ button {
   color: #000;
   align-self: flex-end;
   margin-top: 119px;
-  transition: all 0.3s ease-out;
 }
 .project-info__further-2 {
   margin-top: 95px;
@@ -606,6 +625,9 @@ button {
 .project-info__further-4 {
   margin-top: 118px;
 }
+.project-info__further-5 {
+  margin-top: 103px;
+}
 .project-info__bott {
   display: flex;
   flex-direction: column;
@@ -613,6 +635,9 @@ button {
 }
 .project-info__bott-2 {
   margin-top: 0;
+}
+.project-info__bott-5 {
+  margin-top: 35px;
 }
 .project-info__title {
   font-family: "FDMedian", sans-serif;
@@ -635,6 +660,9 @@ button {
 .project-info__images-4 {
   margin-top: 87px;
 }
+.project-info__images-5 {
+  margin-top: 70px;
+}
 .project-info__imag-1-l {
   max-width: 784px;
   width: 100%;
@@ -652,6 +680,10 @@ button {
   max-width: 721px;
   width: 100%;
   margin-left: 26px;
+}
+.project-info__imag-5-l {
+  max-width: 775px;
+  width: 100%;
 }
 .project-info__imag-1-r {
   max-width: 667px;
@@ -674,6 +706,12 @@ button {
   width: 100%;
   margin-top: 7px;
 }
+.project-info__imag-5-r {
+  max-width: 711px;
+  width: 100%;
+  height: 391px;
+  margin-top: 66px;
+}
 .project-info__imag-1-bot {
   max-width: 1007px;
   width: 100%;
@@ -695,4 +733,9 @@ button {
   max-width: 651px;
   width: 100%;
   margin: 120px auto 0;
+}
+.project-info__imag-5-bot {
+  max-width: 824px;
+  width: 100%;
+  margin: 46px 235px 0 auto;
 }
