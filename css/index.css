@@ -57,14 +57,12 @@ button {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+  background: #ffffff;
 }
 .container {
   max-width: 1561px;
   width: 100%;
   margin: 0 auto;
-}
-section {
-  background: #fff;
 }
 .header {
   width: 100%;
@@ -128,6 +126,7 @@ section {
 .promo__wrapper {
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 .promo__image {
   width: 404px;
@@ -172,8 +171,10 @@ section {
   gap: 51px;
 }
 .info__top {
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-top: 53px;
 }
 .info__text {
   display: flex;
